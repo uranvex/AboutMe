@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+body {
+    background-image: url("/assets/wallpaper.jpg");
+    background-size: cover;
+    overflow: hidden;
+    color: white;
+    font-family: 'Jersey 10', sans-serif;
+    justify-content: center;
+    display: flex;
+    z-index: 9999;
+}
+
+.box {
+    text-align: center;
+    z-index: 1;
+    background-color: rgba(179, 174, 174, 0.658);
+    padding: 60px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(179, 174, 174, 0.658);
+    position: relative;
+    margin-top: 270px;
+    width: 200px;
+    height: 300px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: all .2s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.04);
+    transition: all .2s ease-in-out;
+}
+
+.name a {
+    font-weight: 700;
+    font-size: 46px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons a {
+    margin: 0 1px;
+    color: white;
+    font-size: 36px;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+.icons a:hover {
+    color: #585858;
+    transition: all .2s ease-in-out;
+}
